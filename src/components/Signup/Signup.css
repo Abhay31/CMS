@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    background-image: url('../../images/login5.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c1{
+    background-color: #96dbb7;
+}
+
+.ss{
+    font-size: smaller;
+}
+
+input{
+    overflow: none;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none; 
+    border-color: #ced4da;
+}
+
+.form-check-input {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+input::placeholder{
+    font-size: smaller;
+    color: gray;
+}
+
+.btn-success:hover .fa-arrow-circle-right {
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(10px); 
+}
